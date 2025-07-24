@@ -12,6 +12,20 @@ This project aims to assign a **credit score (0–1000)** to DeFi wallets based 
 
 ---
 
+## 📦 Dataset
+
+This project is based on real, anonymized DeFi transaction data provided by the Aave V2 protocol.
+
+📥 Download Sample Dataset (100K JSON records):
+- [Raw JSON (~87MB)](https://drive.google.com/file/d/1ISFbAXxadMrt7Zl96rmzzZmEKZnyW7FS/view?usp=sharing)
+- [Compressed ZIP (~10MB)](https://drive.google.com/file/d/14ceBCLQ-BTcydDrFJauVA_PKAZ7VtDor/view?usp=sharing)
+
+Each record contains wallet-level transaction details including:
+- `userWallet`, `action` (`deposit`, `borrow`, etc.)
+- `amount`, `timestamp`, `assetSymbol`, `liquidationcall`, etc.
+
+---
+
 ## 🚀 Solution Overview
 
 ### 1. Data Parsing & Feature Engineering
