@@ -92,11 +92,12 @@ This will:
 ---
 
 ## 📊 ML Model Summary
-|  Metric  |	Value
-|  Model  |  Random Forest Regressor
-|  MSE  |  287.12
-|  R²  |  0.9919
-|  Top Features  |  `repay_ratio`, `days_active`, `total_liquidations`
+|  Metric  |	Value  |
+|--------|---------|
+|  Model  |  Random Forest Regressor  |
+|  MSE  |  287.12  |
+|  R²  |  0.9919  |
+|  Top Features  |  `repay_ratio`, `days_active`, `total_liquidations`  |
 
 ---
 
